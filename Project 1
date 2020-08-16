@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"> </script>
+  </head>  
+  <body> 
+    <a-scene>
+          <a-box position="0 0 -4" scale=".5 4 .5" color="#86592d"></a-box>
+              <a-plane position="0 0 -50" color="#643200" scale="600 200 600"></a-plane>
+                    <a-plane position="0 0 -50" color="#643200" scale="600 200 600"></a-plane>
+          <a-cone position="0 3 -4" color="green" scale="1 2 1"></a-cone>
+        <a-plane position="1 0 -1" rotation="-90" color="green" scale = "600 600 600"></a-plane>
+      <a-gltf-model id="goku" src="https://cdn.glitch.com/a6e51e80-9054-443c-9c5c-b7fc2edcaccf%2Fout.glb?v=1597009296371" position="0 0 -2" scale=".1 .1 .1" ></a-gltf-model>
+    </a-scene>
+    
+    
+  </body>
+</html>
